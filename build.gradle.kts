@@ -15,8 +15,8 @@ tasks.withType<KotlinCompile>() {
     kotlinOptions.jvmTarget = "11"
 }
 dependencies {
-    implementation("org.junit.jupiter:junit-jupiter:5.4.2")
     testImplementation("org.junit.jupiter:junit-jupiter:5.4.2")
+    testImplementation("org.assertj:assertj-core:3.17.0")
 }
 application {
     mainClassName = "MainKt"
