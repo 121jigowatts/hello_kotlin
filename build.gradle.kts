@@ -17,6 +17,7 @@ tasks.withType<KotlinCompile>() {
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.4.2")
     testImplementation("org.assertj:assertj-core:3.17.0")
+    testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
 }
 application {
     mainClassName = "MainKt"
